@@ -14,7 +14,7 @@ const Contact = () => {
   e.preventDefault();
 
   try {
-    const res = await fetch("https://ecore-backend.onrender.com/api/contact", {
+    const res = await fetch("https://ecore-backend.onrender.com/send-email",  {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
