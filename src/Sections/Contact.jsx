@@ -14,12 +14,12 @@ const Contact = () => {
   e.preventDefault();
 
   try {
-    const res = await fetch("https://ecore-backend.onrender.com/contact", {
+    const res = await fetch("https://ecore-backend.onrender.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(form),
+      body: JSON.stringify(formData),
     });
 
     if (res.ok) {
