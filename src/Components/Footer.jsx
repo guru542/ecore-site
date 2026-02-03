@@ -55,7 +55,7 @@ export default function Footer() {
             <a href="#" className="hover:text-white transition"><Twitter size={20} /></a>
             <a href="#" className="hover:text-white transition"><Github size={20} /></a>
             <a href="#" className="hover:text-blue-600 transition"><Facebook size={20} /></a>
-            <a href="#" className="hover:text-pink-500 transition"><Instagram size={20} /></a>
+            <a href="https://www.instagram.com/itz_me_dharsha_19?igsh=NGhhajZ0YTJpcjVk" className="hover:text-pink-500 transition"><Instagram size={20} /></a>
           </div>
         </div>
 
